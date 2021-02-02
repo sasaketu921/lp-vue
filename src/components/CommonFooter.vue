@@ -64,6 +64,9 @@
   color: #fff;
 }
 
+small {
+  color: #fff;
+}
 /* ============レスポンシブ=================== */
 
 @media screen and (max-width: 768px) {
@@ -72,5 +75,16 @@
     width: 100%;
     text-align: center;
   }
+.flex h1 {
+  margin: 0 auto;
+}
+
+small {
+  color: #fff;
+}
+
+.header-nav {
+  display: none;
+}  
 }
 </style>

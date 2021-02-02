@@ -1,6 +1,6 @@
 <template>
   
-  <div id="firstview">
+    <div id="firstview">
       <header id="top-header">
         <div class="flex">
           <h1 class="header-logo">estra inc.</h1>
@@ -16,6 +16,19 @@
           </nav>
         </div>
       </header>
+      <p class="catchcopy">機械ではできない仕事を</p>
+      <div class="news flex">
+        <div class="news-content">
+          <p class="news_date">2019/01/01</p>
+          <p class="news_title">
+            ニュースタイトルがここには入ります。3月の決算報告書
+          </p>
+        </div>
+        <div class="news-icon">news</div>
+      </div>
+    
+
+            
       
     <div id="hamburger" @click="hamburger()" v-bind:class="{'active' :isClass}">
       <span></span>
@@ -104,7 +117,7 @@ export default {
 }
 
 #firstview {
-  height: 100%;
+  height: 100vh;
   background: url("~@/assets/img/eyecatch.jpg") no-repeat;
   background-size: cover;
   background-position: center;
